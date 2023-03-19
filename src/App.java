@@ -64,11 +64,6 @@ public class App {
             }
             return arr2;
         }
-            return 1;
-        }
-        public char[] thesar(char[] arr){
-            return arr;
-        }
     }
 }
 
