@@ -1,9 +1,21 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        
+        igor test = new igor();
+        int[] arr = {1,2,2,1};
+        int[] dar = {3,2,1,1};
+        int[] arr1 = {1,2,3,4,5,6,7,8,9};
     }
     public static class igor{
         public boolean polimodr(int[] arr){
+            int i=0;
+            int max =arr.length-1;
+            while(i<arr.length){
+                if(i!=max){
+                    return false;
+                }
+                i++;
+                max--;
+            }
             return true;
         }
         public int[] nepar(int[] arr){
@@ -13,10 +25,24 @@ public class App {
     }
     public static class Sergiy{
         public boolean prost(int n){
-            return true;
+            for(int i=1;i<=n;i++){
+                if(i==1 || i==n)
+                    continue;
+                if(n%i==0)
+                    return false;
+            }
+                return true;
+            
         }
         public int max(int[] arr){
-            return 1;
+
+            int max=Integer.MIN_VALUE
+                    for(int i=0;i<arr.length;i++){
+                        if(arr[i]>max)
+                            max=arr[i];
+                    }
+                    return max;
+
         }
 
     }
@@ -38,7 +64,10 @@ public class App {
             }
             return arr2;
         }
-
+            return 1;
+        }
+        public char[] thesar(char[] arr){
+            return arr;
         }
     }
 }
