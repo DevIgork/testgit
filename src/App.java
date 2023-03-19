@@ -31,7 +31,7 @@ public class App {
             return sum;
         }
         public char[] thesar(char[] arr){
-            size=arr.length;
+            int size=arr.length;
             char arr2 = new char [size];
             for(int i = 0; i<arr.length;i++){
                 arr2[i]=arr[i]+3;
